@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>OpenMin needs Accessibility access to minimize windows when you swipe down with 3 fingers.</string>
+	<key>NSInputMonitoringUsageDescription</key>
+	<string>OpenMin needs Input Monitoring to detect your 3-finger swipe down gesture.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>work.bentech.openmin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>openmin</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
